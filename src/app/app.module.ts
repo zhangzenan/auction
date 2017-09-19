@@ -1,3 +1,4 @@
+import { StockService } from './stock/stock.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -42,7 +43,7 @@ const routeConfig: Routes = [
     RouterModule.forRoot(routeConfig)
 
   ],
-  providers: [],
+  providers: [StockService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
