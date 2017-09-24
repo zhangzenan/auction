@@ -43,6 +43,7 @@ const routeConfig: Routes = [
     FormsModule,
     HttpModule,
     ReactiveFormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(routeConfig)
 
   ],
